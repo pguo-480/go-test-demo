@@ -39,11 +39,12 @@ func (m *magic) BuildMagicBook(message int) (*magicBook, error) {
 	if message == 1 {
 		return nil, fmt.Errorf("BuildMagicBook error %w", ErrorUnrecoverable)
 	}
-	// magic.... * 100 lines
+	// 很多你无法理解的代码
 	// call other functions * n
+	// 要花30分钟理解的长算法
 	// error cases * n
 	// logging to datadog ..
-
+	// 很多你无法理解的代码
 	return &magicBook{
 		filed1: message,
 		// magic....
